@@ -1,0 +1,363 @@
+    1  sudo apachectl start
+    2  httpd -v
+    3  cd /etc/apache2/users
+    4  sudo nano gregnudd.conf
+    5  ls -l
+    6  sudo nano /etc/apache2/httpd.conf
+    7  sudo nano /etc/apache2/httpd.conf
+    8  sudo apacheect1 restart
+    9  sudo apachect1 restart
+   10  sudo apachectl restart
+   11  sudo nano /etc/apache2/extra/httpd-userdir.conf
+   12  sudo apachectl restart
+   13  exit
+   14  diff-u game_new.js game_old.js
+   15  ~Downloads/game_new.js
+   16  ls
+   17  cd D
+   18  cd Downloads
+   19  ls
+   20  ls *.js
+   21  diff -u game_new.js game_old.js
+   22  cd D
+   23  sites ls
+   24  cd D
+   25  ls *.html
+   26  Reflection1.html
+   27  open -t Reflection1.html
+   28  cd ~
+   29  mkdir Version-control
+   30  mkdir Reflections
+   31  cd Reflections
+   32  subl Reflection1.html
+   33  open -tReflection1.html
+   34  -n Reflection1.html
+   35  -e Reflection1.html
+   36  -e
+   37  cd *.html
+   38  subl Reflections1.html
+   39  Reflections1.txt
+   40  ls
+   41  pwd
+   42  ls
+   43  cd Version-control
+   44  cd Downloads
+   45  ls
+   46  cd sites
+   47  cd ~ mkdir Sites
+   48  ls
+   49  cd reflections
+   50  subl reflection1
+   51  mk dir sites
+   52  cd sites
+   53  cd ~ sites
+   54  ls
+   55  cd ~ portfolio
+   56  cd portfolio
+   57  Version-control $ git clone https://github.com/udacity/asteroids.git
+   58  cd Version-control
+   59  git clone https://github.com/udacity/asteroids.git
+   60  git config--global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+   61  git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+   62  git config --global push.default upstream
+   63  git config --global merge.conflictstyle diff3
+   64  ls
+   65  ls -l
+   66  rn bash_profile_course .bash_profile
+   67  man rn 
+   68  move bash_profile_course .bash_profile
+   69  npm-g grunt-cli
+   70  npm update - npm
+   71  man npm
+   72  ls
+   73  grunt
+   74  npm install -g grunt-cli
+   75  sudo npm install -g grunt-cli
+   76  grunt
+   77  npm init
+   78  npm install --save-dev
+   79  npm install --save-dev grunt
+   80  pwd
+   81  pwd
+   82  pwd
+   83  pwd
+   84  pwd
+   85  pwd
+   86  ls -l
+   87  hostname
+   88  hostname
+   89  hostname
+   90  hostname
+   91  mkdir temp
+   92  mkdir temp/stuff
+   93  mkdir temp/stuff/things
+   94  mkdir -p temp/stuff/things/eve/fiona/lenore/greg
+   95  cd temp
+   96  pwd
+   97  cd stuff
+   98  pwd
+   99  cd things
+  100  pwd
+  101  cd eve
+  102  pwd
+  103  cd fiona
+  104  pwd
+  105  cd lenore
+  106  pwd
+  107  cd greg
+  108  pwd
+  109  cd eve
+  110  cd temp
+  111  cd things
+  112  cd /Users/gregnudd/temp/stuff/things/eve/fiona
+  113  cd greg
+  114  ls
+  115  man cd
+  116  cd ~
+  117  cd sites
+  118  cd ~
+  119  cd temp
+  120  ls
+  121  ls
+  122  ls
+  123  cd stuff
+  124  ls
+  125  cd things
+  126  cd eve
+  127  cd fiona
+  128  ls
+  129  cd lenore
+  130  ls
+  131  cd greg
+  132  cd ..
+  133  cd ../../../
+  134  ls
+  135  cd ..
+  136  cd ..
+  137  ls
+  138  cd stuff/things/eve/fiona/lenore/greg
+  139  cd ..
+  140  rmdir greg
+  141  ls
+  142  cd ..
+  143  rmdir lenore
+  144  cd ..
+  145  ls
+  146  rmdir fiona
+  147  cd fiona
+  148  ls
+  149  rm dir fiona
+  150  rmdir fiona
+  151  cd ..
+  152  ls
+  153  rmdir fiona
+  154  cd ..
+  155  ls
+  156  rmdir eve
+  157  cd fiona
+  158  cd eve
+  159  rmdir eve
+  160  cd ..
+  161  rmdir things
+  162  cd..
+  163  cd ..
+  164  ls
+  165  rmdir things
+  166  ls
+  167  cd temp
+  168  cd ..
+  169  pwd
+  170  ls
+  171  rmdir stuff
+  172  ls
+  173  pwd
+  174  cd stuff/things/eve/fiona
+  175  cd ..
+  176  rmdir fiona
+  177  ls
+  178  cd fiona
+  179  ls
+  180  cd ..
+  181  rmdir fiona
+  182  cd ..
+  183  rmdir eve
+  184  cd temp
+  185  ls
+  186  cd eve
+  187  ls
+  188  cd stuff
+  189  cd things
+  190  cd temp
+  191  mkdir temp
+  192  mkdir tempo
+  193  cd tempo
+  194  mkdir -p i/like/icecream
+  195  pushd i/like/icecream
+  196  ~/tempo/i/like/icecream
+  197  cd node_modules/
+  198  cd grunt
+  199  cd node_modules/
+  200  cd node_modules
+  201  ls node_modules
+  202  cd sites
+  203  cd ..
+  204  cd..
+  205  cd ..
+  206  cd ..
+  207  cd node_modules
+  208  cd package.json
+  209  cd ~
+  210  cd node_modules
+  211  ls
+  212  cd sites
+  213  cd ~
+  214  cd sites
+  215  cd portfolio
+  216  touch grunt.js
+  217  cd udportfolio-master
+  218  touch grunt.js
+  219  cd ~
+  220  cd node_modules
+  221  ls
+  222  npm install --save-dev grunt-sass
+  223  cd ~
+  224  cd udportfolio-master
+  225  cd udportfolio-master
+  226  cd sites
+  227  cd udportfolio-master
+  228  ls
+  229  cd portfolio
+  230  cd udportfolio-master
+  231  cd sites/portfolio/udportfolio-,aster
+  232  python -m SimpleHTTPServer 8080
+  233  cd udportfolio-master
+  234  cd sites
+  235  cd portfolio
+  236  cd udportfolio-master
+  237  ls
+  238  cd downloads
+  239  cd ~
+  240  cd downloads
+  241  ls
+  242  cd sites
+  243  cd ~
+  244  cd sites
+  245  cd portfolio
+  246  cd node_modules
+  247  cd nodes_module
+  248  node_modules
+  249  udportfolio-master
+  250  ls
+  251  udportfolio-master
+  252  cd udportfolio-master
+  253  ls
+  254  cat
+  255  ngrok http 8080
+  256  history
+  257  npm install grunt-contrib-cssmin --save-dev
+  258  cd udportfolio
+  259  cd sites
+  260  cd udportfolio
+  261  cd portfolio
+  262  cd udportfolio
+  263  npm install grunt-contrib-cssmin --save-dev
+  264  history
+  265  grunt
+  266  cd udportfolio
+  267  cd sites
+  268  cd portfolio
+  269  cd udportfolio
+  270  grunt
+  271  grunt
+  272  grunt
+  273  grunt
+  274  history
+  275  grunt
+  276  npm install grunt --save-dev
+  277  npm install grunt --save-dev
+  278  history
+  279  cd sites
+  280  cd portfolio
+  281  cd udportfolio
+  282  grunt
+  283  grunt
+  284  grunt
+  285  grunt
+  286  npm install --save-dev coffee-script 
+  287  node -v # v0.10.31
+  288  grunt
+  289  cd ~
+  290  cd node-modules
+  291  cd sites
+  292  ls
+  293  cd portfolio
+  294  ls
+  295  cd udportfolio
+  296  ls
+  297  cd node_modules
+  298  rmdir
+  299  npm cache clean
+  300  npm install
+  301  cd udportfolio
+  302  ~ cd
+  303  cd ~
+  304  cd sites
+  305  cd portfolio
+  306  cd udportfolio
+  307  grunt
+  308  npm update
+  309  npm install -g grunt-legacy-util
+  310  sudo npm install -g grunt-legacy-util
+  311  sudo npm install -g grunt-legacy-util
+  312  grunt
+  313  cd /usr/local/lib/node_modules/
+  314  ls
+  315  cd grunt-legacy-util
+  316  ls
+  317  vi README.md
+  318  cd
+  319  ls
+  320  ls -l
+  321  cd node_modules
+  322  ls
+  323  cd ..
+  324  ls
+  325  ls -l
+  326  vi grunt.js
+  327  ls -l
+  328  cd Sites
+  329  ls
+  330  cd Portfolio
+  331  ls
+  332  ls -l
+  333  cd udportfolio
+  334  ls
+  335  ls -l
+  336  vi Gruntfile.js
+  337  ls -l
+  338  grunt
+  339  cd grunt
+  340  ls
+  341  ls -l
+  342  cd node_modules
+  343  ls
+  344  ls -l
+  345  cd grunt-legacy-util
+  346  ls
+  347  grunt
+  348  cd ..
+  349  cd ..
+  350  cd ..
+  351  cd /
+  352  ls
+  353  ls l
+  354  ls -l
+  355  cd sites
+  356  cd ~
+  357  cd sites
+  358  cd portfolio
+  359  cd udportfolio
+  360  grunt
+  361  hisotry
+  362  history
+  363  history > terminal_history.txt
