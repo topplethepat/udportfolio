@@ -2,7 +2,7 @@
 
 module.exports = function(grunt) {
 	
-	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	
        
 
@@ -10,11 +10,11 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    cssmin: {
+    imagemin: {
        
        minify: {
-        src: ['css/style.css','css/bootstrap-grid.css'],
-        dest: 'css/min.css'
+        src: ['img/*.{png,jpg}','views/images/*.{png,jpg}'],
+        dest: 'dist/'
      
        },
     },
@@ -24,5 +24,5 @@ module.exports = function(grunt) {
   }); 
 
      
-     grunt.registerTask('default', ['cssmin']);
+     grunt.registerTask('default', ['imagemin']);
 };
