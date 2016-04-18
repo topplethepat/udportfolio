@@ -13,8 +13,8 @@ module.exports = function(grunt) {
     cssmin: {
        
        minify: {
-        src: ['css/style.css','css/print.css'],
-        dest: 'css/dist.css'
+        src: ['css/style.css','css/bootstrap-grid.css'],
+        dest: 'css/min.css'
      
        },
     },
