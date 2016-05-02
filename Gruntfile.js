@@ -13,8 +13,8 @@ module.exports = function(grunt) {
     imagemin: {
        
        minify: {
-        src: ['img/*.{png,jpg}','views/images/*.{png,jpg}'],
-        dest: 'dist/'
+        src: ['views/images/pizzeria.jpg'],
+        dest: 'views'
      
        },
     },
