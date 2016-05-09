@@ -2,27 +2,25 @@
 
 module.exports = function(grunt) {
 	
-	grunt.loadNpmTasks('grunt-contrib-imagemin');
+	grunt.loadNpmTasks('grunt-critical');
 	
-       
-
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    imagemin: {
+    critical: {
+    
+      width: 1024,
+      height: 1024
        
-       minify: {
-        src: ['views/images/pizzeria.jpg'],
-        dest: 'views'
+       
+        src: 'css/min.css',
+        dest: 'css/crit.css'
      
-       },
-    },
-   
+       },  
     
     
   }); 
 
-     
-     grunt.registerTask('default', ['imagemin']);
+     grunt.registerTask('default', ['critical']);
 };
