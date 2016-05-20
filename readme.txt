@@ -16,5 +16,6 @@ Achieving 60 fps in the pizza.html page
 1. Changed .querySelectorAll to .getElementsByClassName for the "mover" class so not  all elements would be selected each time
 2.  Moved var dx and var newWidth out of the for loop to stop browser thrashing on the function changePizzaSizes
 3. On same function, cached document.querySelectorAll(".randomPizzaContainer").length in a new variable called var saveTime and then used that variable in the for loop.
-4. In function updatePositions, created new variable called var left to be the positions and movment of pizzas on the page
+4. In function updatePositions, created new variable called var left to be the positions and movment of pizzas on the page. This was an innovation from ecDusty/frontend-nanodegree-mobile-portfolio
 5. Concatenated this variable with "translateX" in order to make pizza movement (all on X axis) more performant, and added "translateZ(0)" to trigger Graphic Processing Unit acceleration, i.e make the animation smoother. 
+6. Tested on Chrome Dev Tools
