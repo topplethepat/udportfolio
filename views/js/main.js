@@ -453,10 +453,9 @@ var resizePizzas = function(size) {
 
     var dx = determineDx(document.querySelector(".randomPizzaContainer"), size);
     var newwidth = (document.querySelector(".randomPizzaContainer").offsetWidth + dx) + 'px';
-    var saveTime = document.querySelectorAll(".randomPizzaContainer").length;
+    var saveTime = document.getElementsByClassName("randomPizzaContainer").length;
   for (var i = 0; i < saveTime; i++) {
-    document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
-    console.log(saveTime);
+    document.getElementsByClassName("randomPizzaContainer")[i].style.width = newwidth;
   }
 }
 
@@ -466,7 +465,6 @@ var resizePizzas = function(size) {
   window.performance.mark("mark_end_resize");
   window.performance.measure("measure_pizza_resize", "mark_start_resize", "mark_end_resize");
   var timeToResize = window.performance.getEntriesByName("measure_pizza_resize");
-  console.log("Time to resize pizzas: " + timeToResize[0].duration + "ms");
 }
 
 window.performance.mark("mark_start_generating"); // collect timing data
@@ -506,11 +504,12 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   var items = document.getElementsByClassName('mover');
+  var scrollY = (document.body.scrollTop/1250);
   for (var i = 0; i < items.length; i++) {
-    var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
-    var left = -items[i].basicLeft + 1000 * phase + 'px';
-    items[i].style.transform = "translateX("+left+") translateZ(0)";
+    var phase = Math.sin((scrollY) + (i % 5));
+    items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   } 
+  
   // User Timing API to the rescue again. Seriously, it's worth learning.
   // Super easy to create custom metrics.
   window.performance.mark("mark_end_frame");
@@ -536,7 +535,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    document.querySelector("#movingPizzas1").appendChild(elem);
+    document.getElementById("movingPizzas1").appendChild(elem);
   }
   updatePositions();
 });
