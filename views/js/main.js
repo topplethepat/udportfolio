@@ -502,7 +502,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
-
+  //cached the scrollTop/1250 inside a variable to save time in for loop
   var items = document.getElementsByClassName('mover');
   var scrollY = (document.body.scrollTop/1250);
   for (var i = 0; i < items.length; i++) {

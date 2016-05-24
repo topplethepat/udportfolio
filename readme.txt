@@ -21,3 +21,7 @@ Achieving 60 fps in the pizza.html page
 6. On line 538 changed "querySelectAll" to "getElementById" and on 456 changed "querySelectAll" to "getElementsByClassName"
  7. Tested on Chrome Dev Tools
  8. Removed console.log() on the pizzaSize slider! 
+
+ How to see my page live
+
+ Go to http://www.lenorealford.com/test/udportfolio/ and enjoy jank-free scrolling!
